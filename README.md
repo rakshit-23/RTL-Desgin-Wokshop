@@ -1,1 +1,1 @@
-# RTL-Desgin-Wokshop
+# RTL-Design-Workshop
