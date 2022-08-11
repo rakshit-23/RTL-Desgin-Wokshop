@@ -10,7 +10,7 @@ In digital circuit design, register-transfer level (RTL) is a design abstraction
 
 Register-transfer-level abstraction is used in hardware description languages (HDLs) like Verilog and VHDL to create high-level representations of a circuit, from which lower-level representations and ultimately actual wiring can be derived. Design at the RTL level is typical practice in modern digital design.
 
-#### 2.2 Verilog
+### 2.2 Verilog
 Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems. It is most commonly used in the design and verification of digital circuits at the register-transfer level of abstraction.
 
 ### 2.3 Verilog Modules
@@ -22,3 +22,8 @@ The functionality of the design block can be tested by applying stimulus and che
 ### 2.5 Simulation
 RTL design is checked for adherence to its design specification using simulation. Simulation is the process of appplying stimulus to the design to verify the functionality of the design.
 
+### 2.6 Icarus Verilog
+Icarus Verilog is a Verilog simulation and synthesis tool. It operates as a compiler, compiling source code written in Verilog (IEEE-1364) into some target format. For batch simulation, the compiler can generate an intermediate form called vvp assembly. This intermediate form is executed by the `vvp` command. For synthesis, the compiler generates netlists in the desired format.
+
+### 2.7 GTKWave
+GTKWave is a fully featured GTK+ based wave viewer for Unix, Win32, and Mac OSX which reads LXT, LXT2, VZT, FST, and GHW files as well as standard Verilog VCD/EVCD files and allows their viewing. 
